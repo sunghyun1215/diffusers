@@ -25,8 +25,12 @@ Nvidia Drvier : 525.147.05
   ```bash
   source .env/bin/activate
   ```
+- cuda11.8 버전에 해당하는 pytorch 설치 (홈페이지)
+- networkx 설치
 
-  
+  ```bash
+  pip3 install networkx
+  ```  
 
 ### Diffusers Installation
 
