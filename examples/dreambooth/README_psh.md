@@ -25,16 +25,20 @@ Nvidia Drvier : 525.147.05
   ```bash
   source .env/bin/activate
   ```
-- cuda11.8 버전에 해당하는 pytorch 설치 (홈페이지)
+  
 - networkx 설치
 
   ```bash
   pip3 install networkx
-  ```  
+  ```
+
+- cuda11.8 버전에 해당하는 pytorch 설치 (홈페이지)
+
+  
 
 ### Diffusers Installation
 
-**Install with conda(필수 아닌 것 같음)**
+**Install with conda**
 
 가상환경 활성화 후 다음과 같음 명령어 수행 
 
@@ -67,6 +71,7 @@ git pull
 In diffusers folder,
 
 ```bash
+pip3 install transformers
 pip3 install -e ".[torch]"
 ```
 
