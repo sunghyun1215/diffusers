@@ -178,7 +178,7 @@ tags
 wandb
 
 # about dreambooth
-/examples/dreambooth/path_to_saved_model
+#/examples/dreambooth/path_to_saved_model
 *.jpg
 *.png
 *.jpeg
